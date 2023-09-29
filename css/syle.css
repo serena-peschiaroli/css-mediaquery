@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* partenza */
+/* approccio desktop first */
+
+/* .container {
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+/* breakpoints */
+/* @media screen and (max-widht: 375px) {
+    .container {
+        background-color: lightcoral;
+    }
+}
+ */ 
+
+ .container {
+    width: 95%;
+    margin: 0 auto;
+    height: 400px;
+    background-color: lightcoral;
+ }
+ .col-20 {
+    width: 20%;
+ }
+
+ .col-30 {
+    width: 30%;
+ }
+
+ .col-40 {
+    width:40%;
+ }
+
+ .col-60 {
+    width: 60%;
+ }
+
+ .col-70 {
+    width: 70%;
+ }
+
+ @media screen and (min-widht: 376px) {
+    .container {
+        background-color: lightgreen;
+    }
+ }
+  @media screen and (min-width: 769px) {
+    .container {
+        background-color: lightblue;
+    }
+    
+  }
+
+
+  @media screen and (min-width: 376px) and (max-width:768px) {
+    .container {
+        width:60%;
+        background-color: lightgreen;
+    }
+  }
+
+
+  /* QUASI MAI SI USA */
+  /* @media screen and (min-width: 376px) and (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+    
+  } */
